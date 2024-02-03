@@ -6,7 +6,7 @@ class Assistant:
     def __init__(self):
         self.engine = pyttsx3.init()
         self.engine.setProperty('rate', 150) # встановлення швидкості відтворення
-        self.engine.setProperty('voice', 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\TokenEnums\\RHVoice\\Natalia')  # встановлення голосу
+        self.engine.setProperty('voice', 'C:/Users/JeFan/Desktop/розробка сайтів/сайтобудівництво')  # встановлення голосу
 
         self.r = sr.Recognizer() # розпізнавання голосу
         self.gpt = GPT()
