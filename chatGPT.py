@@ -4,7 +4,7 @@ import openai
 class GPT:
     def __init__(self):
         # Ініціалізація OpenAI GPT-3.5
-        self.api_key = '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'  # Замініть на свій API-ключ OpenAI
+        self.api_key = ''  # Замініть на свій API-ключ OpenAI
 
     def request(self, prompt):
         openai.api_key = self.api_key
